@@ -1,0 +1,40 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ 
+form.am_script_form input[type="text"],
+form.am_script_form select {
+    width: 300px;
+    border-radius: 0;
+    margin-bottom: 15px;
+	padding: 7px;
+	height: 50px;
+}
+form.am_script_form select{
+	margin-bottom: 0;
+	margin-top: -4px;
+}
+form.am_script_form button.add,
+form.am_script_form button.remove {
+    border: 0;
+    padding: 12px;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+	cursor: pointer;
+	text-align: center;
+	height: 50px;
+}
+form.am_script_form button.add {
+	width: 300px;
+    background-color: #3bc52b;
+}
+form.am_script_form button.remove {
+	width: 80px;
+    background-color: #f00;
+}
+
+form.am_script_form input[type="submit"] {
+    width: 300px;
+    padding: 15px 30px;
+}
